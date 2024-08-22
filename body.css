@@ -1,0 +1,41 @@
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .table-container {
+            display: grid;
+            grid-template-columns: repeat(18, 50px);
+            grid-gap: 5px;
+            justify-content: center;
+            margin: 20px;
+        }
+        .element {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .element:hover {
+            background-color: #f0f0f0;
+        }
+        .symbol {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .number {
+            font-size: 12px;
+        }
+        .info {
+            display: none;
+            margin-top: 20px;
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 300px;
+            margin: 20px auto;
+            cursor: pointer;
+        }

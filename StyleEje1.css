@@ -1,0 +1,36 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    color: #000000;
+    background-color: #99cfd1;
+    border-style:solid ;
+    border-color: #09eba7 ;
+    margin: 24px;
+    padding: 25px;
+    border-radius: 14px;
+}
+h1{
+    font-size: 25pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    background-color: #2f22e9;
+    color: beige;  
+}
+body{
+    background-color: #ffffff ;
+    font-family: arial;
+    color: #000000;
+}
+.i{
+    text-decoration: underline;
+    background-color: #bac5dd;
+    margin: 24px;
+    padding: 10px;
+    top: -1%;
+    position: absolute;
+    border-color: #000000;
+    border-radius: 10px;
+}

@@ -1,0 +1,11 @@
+.burger {
+	position: absolute;
+	display: block;
+	width: 28px;
+	height: 4px;
+	margin: 0 auto;
+	background: #5A3B5D;
+	transform: skew(5deg);
+	transition: all .275s;
+    font-size: 40px;
+}

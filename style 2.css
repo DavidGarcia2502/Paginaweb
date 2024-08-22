@@ -1,0 +1,14 @@
+h1{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    background-color: #885588;
+    transform: calc(33);
+    
+}
+body{
+    background-color: #308ea5 ;
+    font-family: arial;
+    color: #db0e0e;
+}

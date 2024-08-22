@@ -1,0 +1,89 @@
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .table-container {
+            display: grid;
+            grid-template-columns: repeat(18, 50px);
+            grid-gap: 5px;
+            justify-content: center;
+            margin: 20px;
+        }
+        .element {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            border: 1px solid #a59e9e;
+            cursor: pointer;
+            transition: background-color 0.3s;
+
+           
+        }
+        .element:hover {
+            background-color: #f0f0f0;
+        }
+        .symbol {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .number {
+            font-size: 12px;
+        }
+        .name {
+            font-size: 9px;
+            font-weight: bold;
+        }
+        .name1 {
+            font-size: 8px;
+            font-weight: bold;
+        }
+        .info {
+            display: none;
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 300px;
+            margin: 20px auto;
+            cursor: pointer;
+            z-index: 5;
+            position: absolute;
+            background-color: rgb(126, 128, 127);
+            top: 30%;
+            left: 36%;
+
+        }
+#nometal{
+    background-color: rgb(184, 36, 214);
+}
+#halogenos{
+    background-color: rgb(247, 68, 247);
+}
+#lantanidos{
+    background-color: rgb(233, 176, 102);
+}
+#metalesalcalinos{
+    background-color:skyblue;
+}
+#gasesnobles{
+    background-color: rgb(2, 161, 2);
+}
+#actinidos{
+    background-color: bisque;
+}
+#alcalinoterreos{
+    background-color: orange;
+}
+#Otrosmetales{
+    background-color: rgb(92, 224, 92);
+}
+#metalesdetransicion{
+    background-color: rgb(49, 144, 173);
+}
+#metaloides{
+    background-color: yellow;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.493);
+}

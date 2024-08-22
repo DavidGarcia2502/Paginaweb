@@ -1,0 +1,84 @@
+
+    .carta {
+	   width: 4%;
+	   margin-left: 1%;
+	   float: left;
+	}
+	#uno {
+	   position: absolute;
+	   left: 215px;
+	   top: 50px;
+	   z-index: 1;
+	   left: 90px;
+	   width: 100px;
+	   height: 100px;
+	}
+
+	#dos {
+	   position: absolute;
+	   left: 230px;
+	   top: 65px;
+	   z-index: 2;
+	   top: 200px;
+	   left: 300px;
+	 
+	}
+
+	#tres {
+	   position: absolute;
+	   left: 245px;
+	   top: 80px;
+	   z-index: 3;
+	   top: 400px;
+	   left: 500px;
+	}
+
+	#cuatro {
+	   position: absolute;
+	   left: 260px;
+	   top: 95px;
+	   z-index: 4;
+	   top: 600px;
+	   left: 700px;
+	}
+
+	#cinco {
+	   position: absolute;
+	   left: 275px;
+	   top: 110px;
+	   z-index: 5;
+	   top: 800px;
+	   left: 900px;
+	}
+	.i{
+		text-decoration: underline;
+		background-color: #bac5dd;
+		margin: 24px;
+		padding: 10px;
+		top: 1%;
+		position: absolute;
+		border-color: #000000;
+		border-radius: 10px;
+		left: 2px;
+		font-size: 20px;
+	}
+	.dos{
+		width: 300px;
+		height: 300px;
+	}
+	.uno{
+		width: 300px;
+		height: 300px;
+	}
+	.tres{
+		width: 300px;
+		height: 300px;
+	}
+	.cuatro{
+		width: 300px;
+		height: 300px;
+	}
+	.cinco{
+		width: 300px;
+		height: 300px;
+	}

@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+nav{
+
+   display:grid;
+
+   grid-template-columns: 1fr auto;
+
+    align-items: center;
+
+    background: rgb(161, 199, 192);
+
+    font-family: sans-serif;
+
+    position:fixed;
+
+    top:0;
+
+    width:100%;
+
+    }
+
+nav .logo{
+
+    font-size: 24px;
+
+    font-weight:black;
+
+    }
+
+nav .barnav{
+
+    display:grid;
+
+    grid-template-columns: repeat(5,auto);
+
+    margin-right: 30px;
+
+    }
+
+nav .barnav div{
+
+    padding: 10px 20px;
+
+    }
+
+nav .barnav div:hover{
+
+    cursor: pointer;
+
+    background:#CDDC39;
+
+    }
+
+.contenido{
+
+    height: 1100px;
+
+    margin-top: 60px; 
+
+}
+h3{
+    font-size: 40px;
+}
+p{
+    padding: 10px;
+    margin: 20px;
+}

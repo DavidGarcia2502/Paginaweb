@@ -1,0 +1,41 @@
+.visible {display:block;}
+.invisible {display:none;}
+
+#capasuperior {
+position: fixed;
+width: 400px;
+height: 400px;
+z-index: 3;
+opacity: 0.8;filter: alpha(opacity=80);
+background: #000000;
+}
+
+#capasuperior1 {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    z-index: 3;
+    opacity: 0.8;filter: alpha(opacity=80);
+    background: #000000;
+    }
+
+#capasuperior1 {
+position: fixed;
+width: 400px;
+height: 400px;
+z-index: 3;
+opacity: 0.8;filter: alpha(opacity=80);
+background: #3456FF;
+}
+#texto{ 
+position: relative;
+color: #ffffff;
+top:20px;
+left: 20px;
+rigth: 20px;
+bottom: 20px;
+}
+img{
+position: relative;
+z-index: 3;
+}
